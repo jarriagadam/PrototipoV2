@@ -5,8 +5,8 @@
   Connect the Serial MP3 Player to the Arduino board
     GND → GND
     VCC → 5V
-    TX → pin 18
-    RX → pin 19
+    TX → pin 16
+    RX → pin 17
 
   After compile and upload the code,
   you can test some basic commands by sending the letters
@@ -32,8 +32,8 @@
 
 #include "SerialMP3Player.h"
 
-#define TX 18
-#define RX 19
+#define TX 16
+#define RX 17
 
 SerialMP3Player mp3(RX,TX);
 
