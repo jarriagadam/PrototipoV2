@@ -16,3 +16,27 @@ Estas son las funciones del control:
 Consideraciones importantes: La idea es poder combinar estos códigos en uno solo y así poder integrarlas al control.
 Los archivos de este proyecto los subiré a Github para que puedan descargarlos y analizarlos.
 Muchas gracias!
+
+------------------------------------------------------------------------------------------------------------
+
+Hi everyone! Thanks for the help in the previous post.
+Right now, I am trying to figure out some solutions for my Arduino code. As you guys may know I am building a Bluetooth controller with lights and sound. 
+These are the things I need help with:
+•	PRESS BUTTON and --->
+•	Activate RGB Neopixel light when button is pressed. For example, turn red when button red is pressed.
+•	Activate sound from mp3 module (YX5300) when pressing button. The module plays a specific sound file. For example: 004.mp3. *I have the code that activates sound with serial monitor but I don´t know how to assign that print to the push button. If I press “P04” it plays the file.
+
+•	PRESS BUTTON and start RFID --->
+•	When specific button is pressed the RFID starts reading.
+
+•	READ A RFID TAG and --->
+•	Activates RGB light when a specific tag is scanned. Example: RFID reads tag 04 06 XF and activates Purple RGB. * I have the code that reads any tag from the RFID NFC.
+•	Activate sound file with mp3 module (YX5300) just like push button.
+•	PRESS ROTARY ENCODER BUTTON and --->
+•	Activate RGB light animation that changes each time I press Rotary Encoder button SW. *I have this code working
+•	Activate mp3 sound when encoder button is pressed. Same as before.
+It´s really important that these codes can be combined into one so that I can upload it to the Arduino.
+I will leave all the code examples in Github link and also my Arduino Pins.
+https://github.com/jarriagadam/PrototipoV2/
+
+Thanks guys!
